@@ -27,4 +27,4 @@ jobs:
           MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
           MODAL_PRODUCTION_FLAG: true
         run: |
-          modal app deploy main.py
+          modal app deploy server.py
